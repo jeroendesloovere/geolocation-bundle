@@ -15,6 +15,17 @@ This Geolocation Symony2 Bundle uses the geolocation-php-api class using Google 
 ```
 > Adding this code in your `composer.json` file will get the [latest :package_name Packagist package](https://packagist.org/packages/jeroendesloovere/geolocation-bundle using [Composer](https://getcomposer.org).
 
+and in app/AppKernel.php
+```php
+public function registerBundles()
+{
+    $bundles = array(
+        // ...,
+        new JeroenDesloovere\Bundle\GeolocationBundle\JeroenDesloovereGeolocationBundle()
+    );
+}
+```
+
 ### Example
 
 ```php
