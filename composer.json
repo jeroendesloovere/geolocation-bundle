@@ -1,0 +1,27 @@
+{
+    "name": "jeroendesloovere/geolocation-bundle",
+    "type": "library",
+    "description": "This Geolocation Symony2 Bundle uses the geolocation-php-api class which finds latitude/longitude from an address or reverse using Google Maps API.",
+    "keywords": ["symfony2", "bundle", "geolocation", "latitude", "longitude", "address", "api", "php"],
+    "homepage": "https://github.com/jeroendesloovere/geolocation-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen Desloovere",
+            "email": "info@jeroendesloovere.be",
+            "homepage": "http://jeroendesloovere.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-kernel": "~2.3",
+        "jeroendesloovere/geolocation-php-api": "1.0.*"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "~2.3"
+    },
+    "autoload": {
+        "psr-4": { "JeroenDesloovere\\Bundle\\GeolocationBundle\\": "" }
+    }
+}

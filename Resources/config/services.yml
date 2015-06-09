@@ -1,0 +1,3 @@
+services:
+    jeroendesloovere.geolocation:
+        class: JeroenDesloovere\Geolocation\Geolocation
